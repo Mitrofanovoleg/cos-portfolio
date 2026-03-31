@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oleg Mitrofanov | COS Portfolio</title>
+    <style>
+        :root {
+            --bg: #fdfcfb;
+            --text: #2d3436;
+            --accent: #0984e3;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            max-width: 800px;
+            margin: 80px auto 40px;
+            padding: 0 20px;
+        }
+
+        h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        .subtitle { color: #636e72; font-size: 1.1rem; }
+
+        nav {
+            border-bottom: 1px solid #dfe6e9;
+            margin-bottom: 40px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        article {
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            margin-bottom: 60px;
+        }
+
+        .post-meta { font-size: 0.9rem; color: var(--accent); font-weight: bold; text-transform: uppercase; }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 25px 0;
+        }
+        .gallery img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover { transform: scale(1.02); }
+
+        .ai-reflection {
+            background: #f1f2f6;
+            padding: 20px;
+            border-left: 4px solid var(--accent);
+            font-size: 0.95rem;
+            margin-top: 30px;
+        }
+
+        footer { text-align: center; padding: 40px; color: #b2bec3; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Oleg Mitrofanov</h1>
+    <p class="subtitle">Programmatic Marketing Manager | Content Strategy Student @ FH Joanneum</p>
+</header>
+
+<main>
+    <article>
+        <div class="post-meta">Task 1 | March 31, 2026</div>
+        <h2>From Ads to Strategy: New Chapter in Graz</h2>
+        
+        <p>Hi everyone! I’m Oleg, and my journey to the COS program (Content Strategy) at FH Joanneum started with a big move. In November 2023, I relocated to Austria. After years of managing large-scale programmatic campaigns, I decided it was time for a change.</p>
+
+        <div class="gallery">
+            <img src="photo1.jpg" alt="Posters Exhibit">
+            <img src="photo2.jpg" alt="Presentation Slide">
+            <img src="photo3.jpg" alt="Creative Atmosphere">
+        </div>
+
+        <p>Coming from a data-driven background, I really missed the creative side of communication. What I love about the COS program is the freedom to realize my own ideas. But the best part? My classmates. Learning from their different perspectives is probably the most valuable part of the process.</p>
+
+        <div class="ai-reflection">
+            <strong>AI Reflection:</strong> To create this post, I used Gemini to help me structure my thoughts and translate my experience into natural English. I asked the tool to keep the tone simple and avoid "over-polishing" the text so it remains authentic to my actual English level (B2).
+        </div>
+    </article>
+
+    </main>
+
+<footer>
+    &copy; 2026 Oleg Mitrofanov. Built for COS25 Portfolio.
+</footer>
+
+</body>
+</html>
