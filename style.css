@@ -1,0 +1,37 @@
+:root {
+    --black: #1a1a1a;
+    --grey: #f4f4f4;
+    --accent: #ff4757;
+    --white: #ffffff;
+}
+
+body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; margin: 0; color: var(--black); line-height: 1.6; }
+
+.nav-content { max-width: 900px; margin: 0 auto; padding: 20px; display: flex; justify-content: space-between; align-items: center; }
+.logo { font-weight: 900; font-size: 1.5rem; text-decoration: none; color: var(--black); border: 2px solid var(--black); padding: 0 8px; }
+.links a { margin-left: 20px; text-decoration: none; color: var(--black); font-weight: 500; }
+
+.hero { background: var(--black); color: white; padding: 80px 20px; text-align: center; }
+.hero h1 { font-size: 2.5rem; margin: 0; }
+
+main { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+
+.post-card { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; background: var(--grey); padding: 25px; border-radius: 15px; align-items: center; margin-bottom: 40px; }
+.card-img { width: 100%; height: 250px; object-fit: cover; border-radius: 10px; }
+
+.tag { background: var(--accent); color: white; padding: 4px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; }
+.btn { display: inline-block; padding: 12px 24px; background: var(--black); color: white; text-decoration: none; border-radius: 8px; margin-top: 15px; }
+
+.single-post { max-width: 700px; margin: 60px auto; padding: 0 20px; }
+.post-header { border-bottom: 1px solid #eee; margin-bottom: 30px; padding-bottom: 20px; }
+.post-gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 30px 0; }
+.post-gallery img { width: 100%; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+
+.ai-reflection { background: #fff3f3; padding: 25px; border-radius: 10px; border-left: 5px solid var(--accent); margin-top: 40px; }
+.info-box { border: 2px dashed #ccc; padding: 20px; text-align: center; border-radius: 10px; color: #666; }
+
+footer { text-align: center; padding: 40px; color: #888; border-top: 1px solid #eee; margin-top: 60px; }
+
+@media (max-width: 600px) {
+    .post-card { grid-template-columns: 1fr; }
+}
